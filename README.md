@@ -4,6 +4,12 @@ This project is designed to construct the final dataset that includes listing-re
 
 All methods and data processing steps are implemented in a Google Colab notebook. The notebook guides you through the necessary steps to prepare the data, generate NLP metrics, and forecast prices.
 
+**Airbnb Data:**
+
+The raw Airbnb data is stored as a zip file on Google Drive. You can access and download it using the following link:
+
+- [Download Raw Data](https://drive.google.com/file/d/1FYLxvyuQGvVyf2VijEfeRxFw3G16RAXT/view?usp=drive_link)
+
 **Dashboard:**
 
 For more details, check out the dashboard's repository on GitHub: [Airbnb Dashboard Repository](https://github.com/airbnbdashboard/airbnb_dashboard).
