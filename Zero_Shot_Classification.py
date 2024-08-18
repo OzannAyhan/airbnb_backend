@@ -1,3 +1,9 @@
+import pandas as pd
+import torch
+from transformers import pipeline
+from tqdm import tqdm
+
+
 def classify_property_descriptions(combined_data, batch_size=32):
     """
     Classifies property descriptions into categories (Luxury, Standard, Economy) using a zero-shot classification model.

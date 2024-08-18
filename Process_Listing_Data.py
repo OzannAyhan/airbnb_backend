@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def process_city_listings(city_name):
     def load_listings(city):
         base_path = "/content/{}_listings{}.csv"

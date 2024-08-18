@@ -1,3 +1,5 @@
+import pandas as pd
+
 def process_city_calender(city_name):
     base_path = "/content/calendar_{}{}.csv"
     listings = []

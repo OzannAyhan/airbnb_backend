@@ -1,3 +1,6 @@
+import pandas as pd
+from collections import Counter
+
 def process_combined_data(combined_data):
     # Function to handle amenities column
     def handle_amenities(amenities):

@@ -1,3 +1,9 @@
+
+
+import torch
+from transformers import pipeline
+from tqdm import tqdm
+
 def analyze_sentiment(combined_data, batch_size=32):
     """
     Performs sentiment analysis on property descriptions.
