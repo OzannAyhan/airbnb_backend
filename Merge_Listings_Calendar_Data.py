@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 def prepare_combined_data(combined_calender, combined_listings_extended):
     # Rename columns
     combined_calender = combined_calender.rename(columns={'listing_id': 'id'})
